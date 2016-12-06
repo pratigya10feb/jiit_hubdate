@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/eventImage"
+        android:layout_width="match_parent"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/cake"
+        android:adjustViewBounds="true"
+        android:layout_height="257dp" />
+    <TextView
+        android:layout_height="40dp"
+
+        android:background="@drawable/com_facebook_button_background"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+
+        android:gravity="center"
+        android:text="@string/hint_name"
+        android:id="@+id/event_name"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:layout_marginTop="257dp"
+        android:layout_width="match_parent" />
+
+  <!--  <TextView
+        android:text="@string/venue"
+        android:id="@+id/event_venue"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textSize="30sp"
+        android:textColor="@color/com_facebook_button_background_color_focused"
+        android:background="@drawable/com_facebook_button_background"
+        android:gravity="center"
+        android:layout_marginTop="257dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="300dp"
+        tools:ignore="RtlHardcoded"
+        android:layout_width="300dp" />
+    <TextView
+        android:text="@string/venue"
+        android:id="@+id/event_time"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textSize="30sp"
+        android:textColor="@color/com_facebook_button_background_color_focused"
+        android:background="@drawable/com_facebook_button_background"
+        android:gravity="center"
+        android:layout_marginTop="297dp"
+        android:layout_height="40dp"
+        android:layout_width="300dp" />
+    <TextView
+        android:text="@string/venue"
+        android:id="@+id/selectedDate"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textSize="30sp"
+        android:textColor="@color/com_facebook_button_background_color_focused"
+        android:background="@drawable/com_facebook_button_background"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginLeft="300dp"
+        tools:ignore="RtlHardcoded"
+        android:layout_width="300dp" />-->
+
+</FrameLayout>

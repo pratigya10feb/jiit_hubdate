@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_home" />
+
+
+    </group>
+
+    <item android:title="@string/hubs">
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_parola_hub"
+                android:icon="@drawable/ic_book_black_24dp"
+                android:title="@string/parola_hub"/>
+            <item
+                android:id="@+id/nav_knuth_activity"
+                android:icon="@drawable/ic_code_black_24dp"
+                android:title="@string/knuth_hub"/>
+            <item
+                android:id="@+id/nav_osdc_activity"
+                android:icon="@drawable/ic_developer_mode_black_24dp"
+                android:title="@string/osdc"/>
+            <item
+                android:id="@+id/nav_music_activity"
+                android:icon="@drawable/ic_library_music_black_24dp"
+                android:title="@string/music_hub"/>
+            <item
+                android:id="@+id/nav_gdg_activity"
+                android:icon="@drawable/ic_group_black_24dp"
+                android:title="@string/gdg"/>
+            <item
+                android:id="@+id/nav_robotics_activity"
+                android:icon="@drawable/ic_developer_mode_black_24dp"
+                android:title="@string/robotics_hub"/>
+            <item
+                android:id="@+id/nav_ieee_activity"
+                android:icon="@drawable/ic_group_black_24dp"
+                android:title="@string/IEEE"/>
+            <item
+                android:id="@+id/nav_thespian_activity"
+                android:icon="@drawable/ic_theaters_black_24dp"
+                android:title="@string/thespian_circle"/>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_book_black_24dp"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/ic_event_black_24dp"
+                android:title="@string/privacy_policy" />
+            <item
+                android:id="@+id/nav_settings1"
+                android:icon="@drawable/ic_book_black_24dp"
+                android:title="@string/nav_settings1" />
+            <item
+                android:id="@+id/nav_notifications1"
+                android:icon="@drawable/ic_event_black_24dp"
+                android:title="@string/nav_notifications1" />
+        </menu>
+    </item>
+
+</menu>

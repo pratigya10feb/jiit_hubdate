@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pratigya.hamblaster">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".facebook_activity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/label_facebook_login" />
+        <!-- android:theme="@android:style/Theme.Translucent.NoTitleBar" -->
+
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".ChooserActivity" />
+        <activity
+            android:name=".google_sign_in"
+            android:label="@string/label_google_sign_in" />
+        <activity
+            android:name=".SignupActivity"
+            android:label="@string/label_signup"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".InputActivity" />
+        <activity android:name=".DeleteEventActivity" />
+        <activity android:name=".AddReminderActivity" />
+
+        <service
+            android:name=".ScheduleService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".NotifyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".NotifyActivity" />
+        <activity android:name=".AddAdminActivity" />
+        <activity android:name=".CheckForAdminActivity" />
+        <activity android:name=".EntryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.AboutUsActivity" />
+        <activity android:name=".activity.PrivacyPolicyActivity" />
+        <activity android:name=".activity.MusicActivity" />
+        <activity android:name=".WebActivity" />
+        <activity android:name=".Webview" />
+        <activity android:name=".webview2" />
+        <activity android:name=".webview3" />
+        <activity android:name=".ParolaActivity" />
+        <activity android:name=".activity.AboutUsActivity2" />
+        <activity android:name=".AdminViewActivity" />
+        <activity android:name=".DisplayBooksActivity" />
+        <activity android:name=".activity.KnuthActivity" />
+        <activity android:name=".fragment.OsdcActivity" />
+        <activity android:name=".activity.RemindersActivity" />
+        <activity android:name=".activity.SetActivity" />
+        <activity android:name=".activity.IeeeActivity" />
+        <activity android:name=".other.Webviewie"></activity>
+    </application>
+
+</manifest>

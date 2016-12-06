@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <DatePicker
+        android:id="@+id/TimePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:headerBackground="@color/tw__blue_pressed"
+        android:layout_marginTop="200dp" />
+
+    <Button
+        android:id="@+id/selectButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onDateSelectedButtonClick"
+        android:text="@string/set_reminder_for_this_date"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/tw__blue_default"
+        android:background="@color/com_facebook_blue" />
+
+    <Button
+        android:text="@string/set_default_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectbuttondefault"
+        android:onClick="onDateButtonClick"
+        android:background="@color/com_facebook_blue"
+        android:textColor="@color/tw__blue_default"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

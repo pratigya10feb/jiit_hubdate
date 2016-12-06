@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "280166142782",
+    "firebase_url": "https://hamblaster-cbdc4.firebaseio.com",
+    "project_id": "hamblaster-cbdc4",
+    "storage_bucket": "hamblaster-cbdc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280166142782:android:7c809cf5edcc2fa3",
+        "android_client_info": {
+          "package_name": "com.example.pratigya.hamblaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280166142782-2118idpmvgmurgv8dl9s87pstme77t8p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pratigya.hamblaster",
+            "certificate_hash": "5DC3385FA3621F2312D482FAEA8011FBA5101990"
+          }
+        },
+        {
+          "client_id": "280166142782-1oqh8ghhofrs71ilk8nd19iqbkq43fl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzMfrlCX9hvYwwRkqRYv_PohZ0bujsGjQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280166142782-1oqh8ghhofrs71ilk8nd19iqbkq43fl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
